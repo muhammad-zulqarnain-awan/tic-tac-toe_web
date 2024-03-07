@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="headpanel">
+            <p>Tic Tac Toe</p>
+        </div>
+    </header>
+    <main>
+        <aside class="game">
+            <section class="welcome">
+                <p>Welcome to <br> Tic Tac Toe</p>
+            </section>
+            <section class="boxes">
+                <button class="box"></button><button class="box"></button><button class="box"></button><button
+                    class="box"></button><button class="box"></button><button class="box"></button><button
+                    class="box"></button><button class="box"></button><button class="box"></button>
+            </section>
+            <section class="winmessage">
+                <!-- <p>Congratulations! <br> X is the Winner</p> -->
+                <p id="winner"></p>
+            </section>
+            <section class="buttons">
+                <button class="newgame">New Game</button>
+            </section>
+        </aside>
+        <aside class="rule">
+            <p>Instructions...</p>
+            <ul>
+                <li>Choose a player to go first.</li>
+                <li>The first player marks an empty cell on the 3x3 grid with their symbol (X or O).</li>
+                <li>The second player then marks an empty cell with their symbol.</li>
+                <li>Players take turns marking empty cells until one player achieves a horizontal, vertical, or diagonal line of three of their symbols, or until all cells are filled.</li>
+                <li>If a player achieves a winning line, they are declared the winner.</li>
+                <li>If all cells are filled without a winner, the game is a draw.</li>
+                <li>Players can strategize to block their opponent while aiming to create their own winning line.</li>
+                <li>The game ends when a player achieves a winning line or when all cells are filled.</li>
+
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <div class="footpanel">
+            <p>&copy; copyright - zulqarnain-tic-tac-toe.com</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
